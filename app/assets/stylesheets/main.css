@@ -1,0 +1,123 @@
+body
+{
+  background-image: url(/assets/css/fon.jpg);
+  min-width: 800px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  text-align: center;
+}
+div
+{
+  text-align: left;
+}
+form, .inl
+{
+  display: inline;
+}
+.fl
+{
+  float: left;
+}
+.maindiv
+{
+  width: 90%;
+  margin: 0 auto;
+  background-image: url(/assets/css/divfon.png);
+    box-shadow: 0 0 30px 2px #000; /* Валидное свойство CSS3 тень*/
+    -webkit-box-shadow: 0 0 30px 2px #000; /* Safari, Chrome */
+    -moz-box-shadow: 0 0 30px 2px #000; /* Firefox */
+}
+
+#top
+{
+  background-color: #223344; 
+}
+#logo
+{
+  height: 50px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: xx-large;
+}
+.lstTitle
+{
+  min-width: 440px;
+  background-color: #223344; 
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  width: 80%;
+  border-radius:15px 15px 0px 0px;
+  -webkit-border-radius:15px 15px 0px 0px; /* Safari, Chrome */
+    -moz-border-radius:15px 15px 0px 0px; /* Firefox */
+}
+.lstDesc
+{
+  min-width: 440px;
+ width: 80%;
+ padding:5px;
+ 
+ background-color: white;
+  border-radius:0px 0px 10px 10px;
+  -webkit-border-radius:0px 0px 10px 10px; /* Safari, Chrome */
+    -moz-border-radius:0px 0px 10px 10px; /* Firefox */
+}
+.delLst
+{
+  float: right;
+  margin-right: 5px;
+  display: none;
+}
+a
+{
+  color: white;
+}
+#userpan
+{
+  height: 30px;
+  border-top: 1px dashed white;
+  border-bottom: 1px dashed white;
+}
+td
+{
+  vertical-align: top;
+}
+#content
+{
+  padding: 20px;
+  padding-top: 0px;
+  color: black;
+}
+textarea 
+{
+width: 400px;
+height: 100px;
+
+}
+.longlist
+{
+  border: none;
+  width: 100%;
+}
+tr
+{
+  color: white;
+  height: 35px;
+}
+.list_line_odd
+{
+  background-color: #264869;
+ 
+}
+.list_line_even
+{
+  background-color: #A5BBD1;
+  
+}
+.float_box
+{
+  float:left;
+  width: 75px;
+  display: none;
+}

@@ -1,0 +1,6 @@
+<%= check_box_tag(task.id, value = task.state, checked = !task.state.zero?, :class=>"fl") %>
+<div name="ol" onclick=showform(this) class="inl"><%= task.name%></div>
+<%= form_for(task, :remote=>true) do |f| %>
+<%=f.text_field :name, :class => "float_box", :onblur=>"hideform(this)" %>
+<%=f.submit "send", :style => "display: none", :class=>"subm" %>
+<% end %>

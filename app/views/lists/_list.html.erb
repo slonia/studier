@@ -1,0 +1,10 @@
+<div class="lstTitle" onmouseover=show(this) onmouseout=hide(this)>
+&#149;&nbsp; <%=link_to list.title.capitalize, list %>
+<span class="delLst"><%= link_to image_tag("/assets/css/delete_16.png"), list, confirm: 'Are you sure?', method: :delete, :remote=>true %></span>
+</div>
+<% unless list.description.blank? %>
+<div class="lstDesc">
+<%= list.description %>
+</div>
+<% end %>
+<br>

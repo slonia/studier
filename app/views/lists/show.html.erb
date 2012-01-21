@@ -1,0 +1,21 @@
+<div class="lstTitle">
+<%= @list.title %>
+</div>
+<div class="lstDesc">
+<div id="allTasks">
+<% if (@tasks.empty?) %>
+Записей не найдено!<br>
+<% else %>
+<table class="longlist" >
+<% @tasks.each do |task| %>
+<tr class="<%= cycle('list_line_odd', 'list_line_even') %>" >
+<td>
+<%= render task %>
+</td>
+</tr>
+<% end %>
+</table>
+<% end %>
+</div>
+</div>
+<br>
